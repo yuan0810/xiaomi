@@ -1,0 +1,398 @@
+@charset "UTF-8";
+a {
+  text-decoration: none;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  height: 1.24074rem;
+  padding-left: 0.37037rem;
+  padding-right: 0.27778rem;
+  background-color: #fafafa;
+}
+
+.header img {
+  flex: 1;
+  width: 0.7037rem;
+  height: 0.46296rem;
+}
+
+.header .middle {
+  display: block;
+  flex: 8;
+  height: 0.37037rem;
+  font-size: 0.33333rem;
+  padding: 0.18519rem 0;
+  color: #b3b3b3;
+  padding-left: 0.87963rem;
+  margin-left: 0.33333rem;
+  border-radius: 3px;
+  border: 1px solid #e5e5e5;
+  background: url(../images/search_df67e2f.png) no-repeat;
+  background-size: 100% 100%;
+}
+
+.header .login {
+  flex: 1;
+  width: 0.74074rem;
+  height: 0.33333rem;
+  margin-left: 0.33333rem;
+  font-size: 0.33333rem;
+}
+
+.header .login a {
+  color: #9d9d9d;
+}
+
+.nav {
+  height: 0.81481rem;
+  padding-left: 0.42593rem;
+  padding-right: 1.41667rem;
+}
+
+.nav ul {
+  display: flex;
+  height: 0.81481rem;
+  align-items: center;
+  font-size: 0.31481rem;
+}
+
+.nav ul li {
+  flex: 1;
+  text-align: center;
+}
+
+.nav ul li > a {
+  display: inline-block;
+  padding-top: 0.22222rem;
+  padding-bottom: 0.22222rem;
+  color: #747474;
+}
+
+.nav ul li.active a {
+  border-bottom: 2px solid #ee5b00;
+  color: #ee5b00;
+}
+
+main {
+  /* 推荐 */
+}
+
+main .tuijian .lunbotu {
+  position: relative;
+}
+
+main .tuijian .lunbotu img {
+  height: 4.98148rem;
+  width: 100%;
+  height: 100%;
+}
+
+main .tuijian .lunbotu .point {
+  display: flex;
+  position: absolute;
+  right: 0.51852rem;
+  bottom: 0.18519rem;
+  height: 0.14815rem;
+}
+
+main .tuijian .lunbotu .point li {
+  flex: 1;
+  width: 0.14815rem;
+  height: 0.14815rem;
+  border-radius: 50%;
+  margin-right: 0.27778rem;
+  background-color: #ceb9a1;
+}
+
+main .tuijian .lunbotu .point li.active {
+  background-color: #fbfbfc;
+}
+
+main .tuijian .wuliu {
+  display: flex;
+  height: 2.12963rem;
+}
+
+main .tuijian .wuliu a {
+  display: block;
+  width: 25%;
+}
+
+main .tuijian .wuliu a img {
+  width: 100%;
+}
+
+main .tuijian .title {
+  display: flex;
+  align-items: center;
+}
+
+main .tuijian .title img {
+  height: 0.99074rem;
+}
+
+main .tuijian .title span {
+  color: #b2b2b2;
+  font-size: 0.37037rem;
+  margin-right: 0.27778rem;
+  margin-left: 0.27778rem;
+}
+
+main .tuijian .title div {
+  font-size: 0.31481rem;
+  color: #010101;
+}
+
+main .tuijian .shadow {
+  height: 0.18519rem;
+  background-color: #f5f5f5;
+}
+
+main .tuijian .tupian {
+  display: flex;
+  font-size: 0;
+}
+
+main .tuijian .tupian .big {
+  flex: 1;
+  height: 7.02778rem;
+  margin-right: 0.0463rem;
+}
+
+main .tuijian .tupian .big img {
+  height: 7.02778rem;
+}
+
+main .tuijian .tupian .small {
+  flex: 1;
+}
+
+main .tuijian .tupian .small img {
+  height: 3.50926rem;
+}
+
+main .tuijian .tupian .small img.active {
+  margin-bottom: 0.05556rem;
+}
+
+main .tuijian .air img {
+  height: 3.86111rem;
+}
+
+main .tuijian .lei {
+  margin-bottom: 0.0463rem;
+}
+
+main .tuijian .lei img {
+  height: 6.09259rem;
+}
+
+main .tuijian .danpin {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+main .tuijian .danpin a {
+  position: relative;
+  display: block;
+}
+
+main .tuijian .danpin .left {
+  margin-right: 2px;
+}
+
+main .tuijian .danpin .big {
+  height: 4.9537rem;
+}
+
+main .tuijian .danpin .small {
+  position: absolute;
+  height: 0.46296rem;
+  top: 0;
+  left: 0;
+}
+
+main .tuijian .danpin .h1 {
+  padding-left: 0.39815rem;
+  margin-top: 0.39815rem;
+  margin-bottom: 0.25926rem;
+  font-size: 0.38889rem;
+  color: #212121;
+}
+
+main .tuijian .danpin .h2 {
+  padding-left: 0.39815rem;
+  margin-bottom: 0.27778rem;
+  font-size: 0.31481rem;
+  color: #b1b1b1;
+}
+
+main .tuijian .danpin .h3 {
+  padding-left: 0.39815rem;
+  margin-bottom: 0.34259rem;
+  font-size: 0.33333rem;
+  line-height: 0.33333rem;
+  color: #fd6201;
+  font-weight: bold;
+}
+
+main .tuijian .danpin .h3::before {
+  content: '￥';
+  vertical-align: top;
+  margin-right: 0.11111rem;
+  font-size: 0.2037rem;
+  color: #fd6201;
+}
+
+main .tuijian .danpin .h3 span {
+  font-size: 0.27778rem;
+  text-decoration: line-through;
+  color: #757575;
+}
+
+main .tuijian .danpin .h3 span::before {
+  content: '￥';
+  vertical-align: top;
+  font-size: 0.2037rem;
+  margin-left: 0.11111rem;
+  margin-right: 0.11111rem;
+  color: #757575;
+  text-decoration: none;
+}
+
+main .tuijian .danpin .qi::after {
+  content: '起';
+  font-size: 0.25926rem;
+  margin-left: 0.18519rem;
+}
+
+main .tuijian .danpin .more {
+  height: 1.35185rem;
+  line-height: 1.35185rem;
+  width: 100%;
+  text-align: center;
+  color: #666;
+}
+
+main .tuijian .zhineng > div {
+  display: flex;
+  height: 5.00926rem;
+}
+
+main .tuijian .zhineng > div > a {
+  flex: 1;
+  display: block;
+  position: relative;
+}
+
+main .tuijian .zhineng > div > a .small {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 0.46296rem;
+}
+
+main .tuijian .zhineng > div > a .big {
+  height: 5.00926rem;
+}
+
+main .tuijian .zhineng > div .jieshao {
+  flex: 1;
+}
+
+main .tuijian .zhineng > div .jieshao .h1 {
+  margin: 1.01852rem 0.27778rem 0.25926rem 0.46296rem;
+  font-size: 0.38889rem;
+  color: #212121;
+}
+
+main .tuijian .zhineng > div .jieshao .h2 {
+  margin: 0 0.27778rem 0.50926rem 0.46296rem;
+  line-height: 0.46296rem;
+  font-size: 0.31481rem;
+  color: #b1b1b1;
+}
+
+main .tuijian .zhineng > div .jieshao .h3 {
+  margin: 0 0.27778rem 0.34259rem 0.46296rem;
+  font-size: 0.33333rem;
+  line-height: 0.33333rem;
+  color: #fd6201;
+  font-weight: bold;
+}
+
+main .tuijian .zhineng > div .jieshao .h3::before {
+  content: '￥';
+  vertical-align: top;
+  margin-right: 0.11111rem;
+  font-size: 0.2037rem;
+  color: #fd6201;
+}
+
+main .tuijian .zhineng > div .jieshao .h3 span {
+  font-size: 0.27778rem;
+  text-decoration: line-through;
+  color: #757575;
+}
+
+main .tuijian .zhineng > div .jieshao .h3 span::before {
+  content: '￥';
+  vertical-align: top;
+  font-size: 0.2037rem;
+  margin-left: 0.11111rem;
+  margin-right: 0.11111rem;
+  color: #757575;
+  text-decoration: none;
+}
+
+main .tuijian .zhineng .more {
+  display: block;
+  height: 1.35185rem;
+  line-height: 1.35185rem;
+  width: 100%;
+  text-align: center;
+  color: #666;
+}
+
+main .tuijian .fenlei > div {
+  display: flex;
+  margin-bottom: 0.0463rem;
+}
+
+main .tuijian .fenlei .left {
+  display: block;
+  height: 6.65741rem;
+  margin-right: 0.0463rem;
+}
+
+main .tuijian .fenlei .left img {
+  height: 6.65741rem;
+}
+
+main .tuijian .fenlei .right {
+  display: block;
+  height: 6.65741rem;
+}
+
+main .tuijian .fenlei .right img {
+  height: 6.65741rem;
+}
+
+.small-shadow {
+  height: 0.0463rem;
+  background-color: #f5f5f5;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  height: 1.22222rem;
+  padding: 0 0.98148rem;
+  align-items: center;
+}
+
+footer img {
+  height: 0.87037rem;
+}
