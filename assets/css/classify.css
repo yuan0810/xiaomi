@@ -1,0 +1,133 @@
+a {
+  text-decoration: none;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 1.2037rem;
+  background-color: #f2f2f2;
+  padding-left: 0.44444rem;
+  padding-right: 0.41667rem;
+  font-size: 0.38889rem;
+  color: #666;
+  text-align: center;
+  border-bottom: 1px solid #efefef;
+}
+
+header img {
+  height: 0.50926rem;
+}
+
+header .iconfont {
+  font-size: 0.55556rem;
+}
+
+main {
+  position: relative;
+  display: flex;
+}
+
+main .left {
+  position: fixed;
+  width: 22%;
+  border-right: 1px solid #efefef;
+  overflow-y: auto;
+}
+
+main .left li {
+  margin-bottom: 0.92593rem;
+  font-size: 0.31481rem;
+  text-align: center;
+}
+
+main .left .active {
+  margin-top: 0.64815rem;
+  font-size: 0.40741rem;
+  color: #fb7d34;
+}
+
+main .right {
+  flex: 8;
+  padding-left: 2.12963rem;
+}
+
+main .right li {
+  padding: 0 0.48148rem;
+}
+
+main .right .new .img {
+  margin-bottom: 0.9537rem;
+  height: 2.82407rem;
+}
+
+main .right .new .name {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.33333rem;
+  color: #333;
+  margin-bottom: 0.92593rem;
+}
+
+main .right .new .name span {
+  line-height: 0.33333rem;
+  width: 0.55556rem;
+  height: 1px;
+  margin: 0 0.32407rem;
+  background-color: #e0e0e0;
+}
+
+main .right .new .tv {
+  margin-top: 0.64815rem;
+}
+
+main .right .new .phone {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+main .right .new .phone > a {
+  display: block;
+  width: 33.33333%;
+  margin-bottom: 0.81481rem;
+}
+
+main .right .new .phone > a img {
+  display: block;
+  height: 1.36111rem;
+  margin: 0 auto;
+}
+
+main .right .new .phone > a .pinpai {
+  text-align: center;
+  margin-top: 0.46296rem;
+  color: #757575;
+  font-size: 0.27778rem;
+}
+
+main .right .new .phone .last {
+  margin-bottom: 0.5rem;
+}
+
+main .right .new .more {
+  height: 1.13889rem;
+  margin-bottom: 0.9537rem;
+}
+
+main .right .last {
+  height: 4.62963rem;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  height: 1.22222rem;
+  padding: 0 0.98148rem;
+  align-items: center;
+}
+
+footer img {
+  height: 0.87037rem;
+}

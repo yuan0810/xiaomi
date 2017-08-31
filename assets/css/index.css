@@ -27,7 +27,7 @@ a {
   color: #b3b3b3;
   padding-left: 0.87963rem;
   margin-left: 0.33333rem;
-  border-radius: 3px;
+  border-radius: 0.02778rem;
   border: 1px solid #e5e5e5;
   background: url(../images/search_df67e2f.png) no-repeat;
   background-size: 100% 100%;
@@ -124,23 +124,23 @@ main .tuijian .wuliu a img {
   width: 100%;
 }
 
-main .tuijian .title {
+main .tuijian .title1 {
   display: flex;
   align-items: center;
 }
 
-main .tuijian .title img {
+main .tuijian .title1 img {
   height: 0.99074rem;
 }
 
-main .tuijian .title span {
+main .tuijian .title1 .span {
   color: #b2b2b2;
   font-size: 0.37037rem;
   margin-right: 0.27778rem;
   margin-left: 0.27778rem;
 }
 
-main .tuijian .title div {
+main .tuijian .title1 .div {
   font-size: 0.31481rem;
   color: #010101;
 }
@@ -214,7 +214,7 @@ main .tuijian .danpin .small {
   left: 0;
 }
 
-main .tuijian .danpin .h1 {
+main .tuijian .danpin .name {
   padding-left: 0.39815rem;
   margin-top: 0.39815rem;
   margin-bottom: 0.25926rem;
@@ -302,7 +302,7 @@ main .tuijian .zhineng > div .jieshao {
   flex: 1;
 }
 
-main .tuijian .zhineng > div .jieshao .h1 {
+main .tuijian .zhineng > div .jieshao .name {
   margin: 1.01852rem 0.27778rem 0.25926rem 0.46296rem;
   font-size: 0.38889rem;
   color: #212121;

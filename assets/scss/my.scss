@@ -1,0 +1,277 @@
+a {
+    text-decoration: none;
+}
+
+@function rem($px) {
+    //$px为需要转换的大小
+    @return $px / 108px * 1rem; // 108为移动端的分辨率
+}
+
+header {
+    display: flex;
+    align-items: center;
+    height: rem(242px);
+    background-image: url(../images/bg_0425a88.png);
+    background-size: 100% 100%;
+    background-color: #f37e0f;
+    padding-left: rem(50px);
+
+    .bg {
+        img {
+            height: rem(146px); // background: url(../images/avatar_e29d6cb.png) no-repeat;
+        } // background-size: 50% %;
+    }
+    span {
+        display: block;
+        margin-left: rem(30px);
+        font-size: rem(34px);
+        color: #fff;
+    }
+}
+
+section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 rem(50px);
+    height: rem(120px);
+    border: 1px solid #d8d8d8;
+    div:nth-child(1) {
+        font-size: rem(36px);
+        color: #333;
+    }
+    div:nth-child(2) {
+        font-size: rem(30px);
+        color: #757575;
+        .iconfont {
+            font-size: rem(46px);
+            margin-left: rem(20px);
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 服务 */
+
+.dai {
+    display: flex;
+    align-items: center; // justify-content: space-between;
+    padding: 0 rem(50px);
+    height: rem(265px);
+    border-bottom: rem(20px) solid #f5f5f5;
+    >div {
+        text-align: center;
+        width: (100%/3);
+        span {
+            display: block;
+            margin-top: rem(42px);
+            color: #333;
+            font-size: rem(30px);
+        }
+        .iconfont {
+            font-size: rem(62px);
+            color: #999;
+        }
+        .icon-tn-daifukuan {
+            font-size: rem(56px);
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 优惠 */
+
+.youhui {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 rem(50px);
+    height: rem(158px);
+    line-height: rem(50px);
+    border-bottom: rem(20px) solid #f5f5f5;
+    >div {
+        display: flex;
+        span {
+            display: block;
+            margin-left: rem(55px);
+            color: #262626;
+            font-size: rem(40px);
+        }
+        .icon-daifukuan {
+            font-size: rem(68px);
+            color: #51bcdf;
+        }
+        .icon-fmashangpin {
+            font-size: rem(68px);
+            color: #feb403;
+        }
+        .icon-tripshezhishi {
+            font-size: rem(68px);
+            color: #808d98;
+        }
+    }
+    .icon-iconfontxiangxia1copy19 {
+        font-size: rem(46px);
+        color: #757575;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 小米之家 */
+
+.family {
+
+
+    position: relative;
+    .server {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 rem(50px);
+        height: rem(158px);
+        line-height: rem(50px);
+
+        >div {
+            display: flex;
+            span {
+                display: block;
+                margin-left: rem(55px);
+                color: #262626;
+                font-size: rem(40px);
+            }
+            .icon-fuwuzhongxin {
+                font-size: rem(68px);
+                color: #f96d5e;
+            }
+            .icon-y67 {
+                color: #fe8c41;
+            }
+        }
+        .icon-iconfontxiangxia1copy19 {
+            font-size: rem(46px);
+            color: #757575;
+        }
+    }
+    .line {
+        position: absolute;
+        top: rem(158px);
+        left: 15%;
+        width: 85%;
+        height: rem(6px);
+        background-color: #f5f5f5;
+    }
+    border-bottom: rem(20px) solid #f5f5f5;
+}
+
+
+
+
+
+
+
+
+
+.set {
+    border-bottom: rem(200px) solid #f5f5f5;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    height: rem(132px);
+    padding: 0 rem(106px);
+    align-items: center;
+    img {
+        height: rem(94px);
+    }
+}

@@ -1,0 +1,124 @@
+a {
+    text-decoration: none;
+}
+
+@function rem($px) {
+    //$px为需要转换的大小
+    @return $px / 108px * 1rem; // 108为移动端的分辨率
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: rem(130px);
+    background-color: #f2f2f2;
+    padding-left: rem(48px);
+    padding-right: rem(45px);
+    font-size: rem(42px);
+    color: #666;
+    text-align: center;
+    border-bottom: 1px solid #efefef;
+    img {
+        height: rem(55px);
+    }
+    .iconfont {
+        font-size: rem(60px);
+    }
+}
+
+main {
+    position: relative;
+    display: flex;
+    .left {
+        position: fixed;
+        width: 22%; // height: rem(1800px);
+        border-right: 1px solid #efefef;
+        overflow-y: auto;
+        li {
+            margin-bottom: rem(100px);
+            font-size: rem(34px);
+            text-align: center;
+        }
+        .active {
+            margin-top: rem(70px);
+            font-size: rem(44px);
+            color: #fb7d34;
+        }
+    }
+
+
+    .right {
+        flex: 8;
+        padding-left: rem(230px);
+        li {
+            padding: 0 rem(52px);
+        }
+        .new {
+            .img {
+                margin-bottom: rem(103px);
+                height: rem(305px);
+            }
+            .name {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                font-size: rem(36px);
+                color: #333;
+                margin-bottom: rem(100px);
+                span {
+                    line-height: rem(36px);
+                    width: rem(60px);
+                    height: 1px;
+                    margin: 0 rem(35px);
+                    background-color: #e0e0e0;
+                }
+            }
+            .tv {
+                margin-top: rem(70px);
+            }
+            .phone {
+                display: flex;
+                flex-wrap: wrap;
+                >a {
+                    display: block;
+                    width: (100%/3);
+                    margin-bottom: rem(88px);
+                    img {
+                        display: block;
+                        height: rem(147px);
+                        margin: 0 auto;
+                    }
+                    .pinpai {
+                        text-align: center;
+                        margin-top: rem(50px); // text-align: center;
+                        color: #757575;
+                        font-size: rem(30px);
+                    }
+                }
+
+                .last {
+                    margin-bottom: rem(54px);
+                }
+            }
+            .more {
+                height: rem(123px);
+                margin-bottom: rem(103px);
+            }
+        }
+        .last {
+            height: rem(500px);
+        }
+    }
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    height: rem(132px);
+    padding: 0 rem(106px);
+    align-items: center;
+    img {
+        height: rem(94px);
+    }
+}

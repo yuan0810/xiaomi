@@ -1,0 +1,159 @@
+a {
+    text-decoration: none;
+}
+
+@function rem($px) {
+    //$px为需要转换的大小
+    @return $px / 108px * 1rem; // 108为移动端的分辨率
+}
+
+.container {
+    height: 100%;
+    background-color: #eee;
+}
+
+
+/* 头部 */
+
+header {
+    padding-top: rem(121px);
+    .logo-bg {
+        width: rem(145px);
+        height: rem(145px);
+        background: url(../images/milogo@2x.png) no-repeat;
+        background-size: 100% 100%;
+        margin: 0 auto;
+        margin-bottom: rem(76px);
+    }
+    .title {
+        font-size: rem(54px);
+        color: #424242;
+        text-align: center;
+        margin-bottom: rem(108px);
+    }
+}
+
+
+/* 主体 */
+
+main {
+    padding: 0 rem(60px);
+    form {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        div {
+            position: relative;
+            width: 100%;
+            margin: 0 auto;
+        }
+        input {
+            width: 95%;
+            border: 0;
+            outline: none;
+            font-size: rem(46px);
+            padding-left: rem(46px);
+            height: rem(133px);
+        }
+        .username {
+            border-top-left-radius: rem(46px);
+            border-top-right-radius: rem(46px);
+            border-bottom: 1px solid #ddd;
+        }
+        .password {
+            border-bottom-left-radius: rem(46px);
+            border-bottom-right-radius: rem(46px);
+            box-shadow: 0 3px 3px #e0e0e0;
+        }
+        .iconfont {
+            position: absolute;
+            top: 30%;
+            right: 5%;
+            font-size: rem(50px);
+            color: #4d4d4d;
+        }
+        .submit {
+            width: 100%;
+            margin-top: rem(73px);
+            border-radius: rem(46px);
+            color: #fff;
+            background-color: #32b5fe;
+            font-size: rem(42px);
+        }
+        .button {
+            width: 100%;
+            margin-top: rem(45px);
+            border-radius: rem(46px);
+            border: 1px solid #ddd;
+            background-color: #fff;
+            color: #333;
+        }
+    }
+}
+
+
+/* 脚部 */
+
+footer {
+    padding: 0 rem(60px);
+    .fenjiexian {
+        font-size: rem(36px);
+        color: #b3b3b3;
+        margin-top: rem(100px);
+    }
+    .qita {
+        padding: 0 rem(207px);
+        display: flex;
+        .iconfont {
+            flex: 1;
+            height: rem(138px);
+            font-size: rem(138px);
+        }
+        .icon-QQ {
+            color: #0189d0;
+        }
+        .icon-weibo {
+            color: #d2302e;
+        }
+        .icon-zhifubao {
+            color: #00abee;
+        }
+    }
+    .wjmm {
+        margin-top: rem(144px);
+        font-size: rem(42px);
+        color: #e0e0e0;
+        text-align: center;
+        span {
+            color: #757575;
+            margin: 0 rem(33px);
+        }
+    }
+    ul {
+        display: flex;
+        font-size: rem(40px);
+        margin-top: rem(141px);
+        color: #757575;
+        padding: 0 rem(100px);
+        li {
+            padding: 0 rem(33px);
+        }
+        .jianti {
+            color: #333;
+        }
+    }
+    .bot {
+        margin-top: rem(50px);
+        font-size: rem(40px);
+        color: #757575;
+        text-align: center;
+        line-height: rem(60px);
+        a {
+
+            color: #757575;
+            img {
+                height: rem(60px);
+            }
+        }
+    }
+}

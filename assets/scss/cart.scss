@@ -1,0 +1,182 @@
+a {
+    text-decoration: none;
+}
+
+@function rem($px) {
+    //$px为需要转换的大小
+    @return $px / 108px * 1rem; // 108为移动端的分辨率
+}
+
+.container {
+    position: relative;
+    height: 100%;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: rem(130px);
+    background-color: #f2f2f2;
+    padding-left: rem(48px);
+    padding-right: rem(45px);
+    font-size: rem(42px);
+    color: #666;
+    text-align: center;
+    border-bottom: 1px solid #efefef;
+    img {
+        height: rem(55px);
+    }
+    .iconfont {
+        font-size: rem(60px);
+    }
+}
+
+main {
+    margin-top: rem(58px);
+    >a:nth-child(1) {
+        display: block;
+        display: flex;
+        justify-content: space-between;
+        padding-left: rem(50px);
+        padding-right: rem(43px);
+        margin-bottom: rem(60px);
+        h3 {
+            font-size: rem(44px);
+            color: #212121;
+        }
+        span {
+            font-size: rem(34px);
+            color: #757575;
+            &::after {
+                content: ">";
+                margin-left: rem(20px);
+            }
+        }
+    }
+    /* 购物列表 */
+    >div {
+        padding: 0 rem(34px) 0 rem(46px);
+        border-bottom: 1px solid #f6f6f6;
+        display: flex;
+        align-items: center;
+        height: rem(340px);
+        .checkbox {
+            height: rem(60px);
+            margin-right: rem(80px);
+        }
+        .img {
+            height: rem(224px);
+        }
+        .jisuan {
+            margin-left: rem(80px);
+            p {
+                font-size: rem(42px);
+                margin-bottom: rem(34px);
+                color: #6d6d6d;
+                line-height: rem(50px);
+            }
+            >span {
+                display: block;
+                font-size: rem(28px);
+                color: #999;
+                margin-bottom: rem(30px);
+            }
+            >div {
+                display: flex;
+                width: 50%;
+                border: 1px solid #eee;
+                height: rem(96px);
+                font-size: rem(50px);
+                >div {
+                    flex: 1;
+                    text-align: center;
+                    line-height: rem(96px);
+                }
+                input {
+                    flex: 1;
+                    outline: none;
+                    border: 0;
+                    text-align: center;
+                    color: #51555a;
+                }
+                .jian {
+                    color: #ddd;
+                    background-color: #fafafa;
+                }
+                .jia {
+                    color: #999;
+                    background-color: #f4f4f4;
+                }
+            }
+        }
+        .iconfont {
+            font-size: rem(56px);
+            color: #999;
+        }
+    }
+    >p {
+        padding: 0 rem(34px) 0 rem(46px);
+        font-size: rem(30px);
+        color: #999;
+        line-height: rem(107px);
+    }
+    .shadow {
+        height: rem(34px);
+        background-color: #f5f5f5;
+    }
+}
+
+.bot {
+    height: rem(224px);
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: rem(158px);
+    display: flex;
+    border-top: 2px solid #f6f6f6;
+    border-bottom: 1px solid #e0e0e0;
+    div:nth-child(1) {
+        width: (100%/3);
+        height: rem(158px);
+        text-align: center;
+        line-height: rem(79px);
+        background-color: #fff;
+        span:nth-child(1) {
+            display: block;
+            font-size: rem(36px);
+            color: #999;
+        }
+        span:nth-child(2) {
+            display: block;
+            font-size: rem(44px);
+            color: #ff5722;
+            &::after {
+                content: "元";
+                color: #999;
+                margin-left: rem(18px);
+                font-size: rem(32px);
+            }
+        }
+    }
+    div:nth-child(2) {
+        width: (100%/3);
+        text-align: center;
+        font-size: rem(40px);
+        color: #333;
+        background-color: #f4f4f4;
+        line-height: rem(158px)
+    }
+    div:nth-child(3) {
+        width: (100%/3);
+        text-align: center;
+        font-size: rem(40px);
+        color: #fff;
+        background-color: #ff5722;
+        line-height: rem(158px)
+    }
+}

@@ -1,0 +1,181 @@
+a {
+    text-decoration: none;
+}
+
+@function rem($px) {
+    //$px为需要转换的大小
+    @return $px / 108px * 1rem; // 108为移动端的分辨率
+}
+
+.container {
+    background-color: #f9f9f9;
+    /* 头部 */
+    header {
+        padding-top: rem(80px);
+        color: #666;
+        font-size: rem(50px);
+        text-align: center;
+    }
+    /* 主体 */
+    main {
+        margin-top: rem(86px);
+        padding: 0 rem(60px);
+        form {
+            span {
+                display: block;
+                font-size: rem(38px);
+                color: #333;
+                margin-bottom: rem(26px);
+            }
+            >div:nth-child(1) {
+                width: 100%;
+                >div {
+                    display: flex;
+                    position: relative;
+                    border: 1px solid #aeaeae;
+                    border-radius: rem(30px);
+                    input {
+                        height: rem(124px);
+                        margin-left: rem(48px);
+                        color: #555;
+                        border: 0;
+                        outline: none;
+                        border-right: 1px solid #aeaeae;
+                        font-size: rem(38px);
+                        background-color: #f9f9f9;
+                        padding-right: rem(260px);
+                    }
+                    >div {
+                        position: absolute;
+                        top: 0;
+                        right: 0;
+                        width: 10%;
+                        .iconfont {
+                            line-height: rem(124px);
+                            font-size: rem(56px);
+                            text-align: center;
+                        }
+                    }
+                }
+                .zhuyi {
+                    margin-top: rem(26px);
+                    color: #9d9d9d;
+                    margin-bottom: rem(70px);
+                }
+            }
+            >div:nth-child(2) {
+                width: 100%;
+                margin-bottom: rem(54px);
+                >div {
+                    display: flex;
+                    position: relative;
+                    border: 1px solid #aeaeae;
+                    border-radius: rem(30px);
+                    input {
+                        height: rem(124px);
+                        padding-left: rem(36px);
+                        color: #555;
+                        border: 0;
+                        outline: none;
+                        font-size: rem(38px);
+                        border-left: 1px solid #aeaeae;
+                        background-color: #f9f9f9;
+                        margin-left: rem(180px);
+                    }
+                    >div {
+                        position: absolute;
+                        top: 0;
+                        left: 0;
+                        color: #555;
+                        width: 20%;
+                        text-align: center;
+                        .iconfont {
+                            font-size: rem(56px);
+                            color: #9d9d9d;
+                            line-height: rem(124px);
+                            vertical-align: middle;
+                        }
+                    }
+                }
+            }
+            >div:nth-child(3) {
+                width: 100%;
+                margin-bottom: rem(180px);
+                >div {
+                    display: flex; // border: 1px solid #aeaeae;
+                    border-radius: rem(30px);
+                    input {
+                        height: rem(124px);
+                        padding-left: rem(40px);
+                        color: #555;
+                        border: 0;
+                        border-radius: rem(30px);
+                        outline: none;
+                        font-size: rem(38px);
+                        border: 1px solid #aeaeae;
+                        background-color: #f9f9f9;
+                        margin-right: rem(23px); // margin-left: rem(180px);
+                    }
+                    img {
+                        height: rem(124px);
+                    }
+                }
+            }
+            >div:nth-child(4) {
+                width: 100%;
+
+                display: flex;
+                border-radius: rem(30px);
+                input {
+                    width: 100%;
+                    height: rem(130px);
+                    border: 0;
+                    border-radius: rem(30px);
+                    outline: none;
+                    font-size: rem(42px);
+                    color: #fff;
+                    background-color: #32b5fe;
+                }
+            }
+        }
+    }
+    footer {
+        padding: 0 rem(60px);
+        margin-top: rem(40px);
+        >div:nth-child(1) {
+            font-size: rem(42px);
+            line-height: rem(60px);
+            margin-bottom: rem(170px);
+            a {
+                color: #333;
+                font-weight: bold;
+            }
+        }
+        ul {
+            display: flex;
+            font-size: rem(40px);
+            color: #757575;
+            padding: 0 rem(100px);
+            li {
+                padding: 0 rem(33px);
+            }
+            .jianti {
+                color: #333;
+            }
+        }
+        .bot {
+            margin-top: rem(50px);
+            font-size: rem(40px);
+            color: #757575;
+            text-align: center;
+            line-height: rem(60px);
+            a {
+
+                color: #757575;
+                img {
+                    height: rem(60px);
+                }
+            }
+        }
+    }
+}

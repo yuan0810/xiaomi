@@ -28,7 +28,7 @@ a {
         color: #b3b3b3;
         padding-left: rem(95px);
         margin-left: rem(36px);
-        border-radius: 3px;
+        border-radius: rem(3px);
         border: 1px solid #e5e5e5;
         background: url(../images/search_df67e2f.png) no-repeat;
         background-size: 100% 100%;
@@ -115,19 +115,19 @@ main {
                 }
             }
         }
-        .title {
+        .title1 {
             display: flex;
             align-items: center;
             img {
                 height: rem(107px);
             }
-            span {
+            .span {
                 color: #b2b2b2;
                 font-size: rem(40px);
                 margin-right: rem(30px);
                 margin-left: rem(30px);
             }
-            div {
+            .div {
                 font-size: rem(34px);
                 color: #010101;
             }
@@ -189,7 +189,7 @@ main {
                 top: 0;
                 left: 0;
             }
-            .h1 {
+            .name {
                 padding-left: rem(43px);
                 margin-top: rem(43px);
                 margin-bottom: rem(28px);
@@ -267,7 +267,7 @@ main {
                 }
                 .jieshao {
                     flex: 1;
-                    .h1 {
+                    .name {
                         margin: rem(110px) rem(30px) rem(28px) rem(50px);
 
                         font-size: rem(42px);

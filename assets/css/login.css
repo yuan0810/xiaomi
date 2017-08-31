@@ -1,0 +1,172 @@
+@charset "UTF-8";
+a {
+  text-decoration: none;
+}
+
+.container {
+  height: 100%;
+  background-color: #eee;
+}
+
+/* 头部 */
+header {
+  padding-top: 1.12037rem;
+}
+
+header .logo-bg {
+  width: 1.34259rem;
+  height: 1.34259rem;
+  background: url(../images/milogo@2x.png) no-repeat;
+  background-size: 100% 100%;
+  margin: 0 auto;
+  margin-bottom: 0.7037rem;
+}
+
+header .title {
+  font-size: 0.5rem;
+  color: #424242;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+/* 主体 */
+main {
+  padding: 0 0.55556rem;
+}
+
+main form {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+main form div {
+  position: relative;
+  width: 100%;
+  margin: 0 auto;
+}
+
+main form input {
+  width: 95%;
+  border: 0;
+  outline: none;
+  font-size: 0.42593rem;
+  padding-left: 0.42593rem;
+  height: 1.23148rem;
+}
+
+main form .username {
+  border-top-left-radius: 0.42593rem;
+  border-top-right-radius: 0.42593rem;
+  border-bottom: 1px solid #ddd;
+}
+
+main form .password {
+  border-bottom-left-radius: 0.42593rem;
+  border-bottom-right-radius: 0.42593rem;
+  box-shadow: 0 3px 3px #e0e0e0;
+}
+
+main form .iconfont {
+  position: absolute;
+  top: 30%;
+  right: 5%;
+  font-size: 0.46296rem;
+  color: #4d4d4d;
+}
+
+main form .submit {
+  width: 100%;
+  margin-top: 0.67593rem;
+  border-radius: 0.42593rem;
+  color: #fff;
+  background-color: #32b5fe;
+  font-size: 0.38889rem;
+}
+
+main form .button {
+  width: 100%;
+  margin-top: 0.41667rem;
+  border-radius: 0.42593rem;
+  border: 1px solid #ddd;
+  background-color: #fff;
+  color: #333;
+}
+
+/* 脚部 */
+footer {
+  padding: 0 0.55556rem;
+}
+
+footer .fenjiexian {
+  font-size: 0.33333rem;
+  color: #b3b3b3;
+  margin-top: 0.92593rem;
+}
+
+footer .qita {
+  padding: 0 1.91667rem;
+  display: flex;
+}
+
+footer .qita .iconfont {
+  flex: 1;
+  height: 1.27778rem;
+  font-size: 1.27778rem;
+}
+
+footer .qita .icon-QQ {
+  color: #0189d0;
+}
+
+footer .qita .icon-weibo {
+  color: #d2302e;
+}
+
+footer .qita .icon-zhifubao {
+  color: #00abee;
+}
+
+footer .wjmm {
+  margin-top: 1.33333rem;
+  font-size: 0.38889rem;
+  color: #e0e0e0;
+  text-align: center;
+}
+
+footer .wjmm span {
+  color: #757575;
+  margin: 0 0.30556rem;
+}
+
+footer ul {
+  display: flex;
+  font-size: 0.37037rem;
+  margin-top: 1.30556rem;
+  color: #757575;
+  padding: 0 0.92593rem;
+}
+
+footer ul li {
+  padding: 0 0.30556rem;
+}
+
+footer ul .jianti {
+  color: #333;
+}
+
+footer .bot {
+  margin-top: 0.46296rem;
+  font-size: 0.37037rem;
+  color: #757575;
+  text-align: center;
+  line-height: 0.55556rem;
+}
+
+footer .bot a {
+  color: #757575;
+}
+
+footer .bot a img {
+  height: 0.55556rem;
+}

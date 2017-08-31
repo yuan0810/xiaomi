@@ -1,0 +1,186 @@
+@charset "UTF-8";
+a {
+  text-decoration: none;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  height: 2.24074rem;
+  background-image: url(../images/bg_0425a88.png);
+  background-size: 100% 100%;
+  background-color: #f37e0f;
+  padding-left: 0.46296rem;
+}
+
+header .bg img {
+  height: 1.35185rem;
+}
+
+header span {
+  display: block;
+  margin-left: 0.27778rem;
+  font-size: 0.31481rem;
+  color: #fff;
+}
+
+section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 0.46296rem;
+  height: 1.11111rem;
+  border: 1px solid #d8d8d8;
+}
+
+section div:nth-child(1) {
+  font-size: 0.33333rem;
+  color: #333;
+}
+
+section div:nth-child(2) {
+  font-size: 0.27778rem;
+  color: #757575;
+}
+
+section div:nth-child(2) .iconfont {
+  font-size: 0.42593rem;
+  margin-left: 0.18519rem;
+}
+
+/* 服务 */
+.dai {
+  display: flex;
+  align-items: center;
+  padding: 0 0.46296rem;
+  height: 2.4537rem;
+  border-bottom: 0.18519rem solid #f5f5f5;
+}
+
+.dai > div {
+  text-align: center;
+  width: 33.33333%;
+}
+
+.dai > div span {
+  display: block;
+  margin-top: 0.38889rem;
+  color: #333;
+  font-size: 0.27778rem;
+}
+
+.dai > div .iconfont {
+  font-size: 0.57407rem;
+  color: #999;
+}
+
+.dai > div .icon-tn-daifukuan {
+  font-size: 0.51852rem;
+}
+
+/* 优惠 */
+.youhui {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 0.46296rem;
+  height: 1.46296rem;
+  line-height: 0.46296rem;
+  border-bottom: 0.18519rem solid #f5f5f5;
+}
+
+.youhui > div {
+  display: flex;
+}
+
+.youhui > div span {
+  display: block;
+  margin-left: 0.50926rem;
+  color: #262626;
+  font-size: 0.37037rem;
+}
+
+.youhui > div .icon-daifukuan {
+  font-size: 0.62963rem;
+  color: #51bcdf;
+}
+
+.youhui > div .icon-fmashangpin {
+  font-size: 0.62963rem;
+  color: #feb403;
+}
+
+.youhui > div .icon-tripshezhishi {
+  font-size: 0.62963rem;
+  color: #808d98;
+}
+
+.youhui .icon-iconfontxiangxia1copy19 {
+  font-size: 0.42593rem;
+  color: #757575;
+}
+
+/* 小米之家 */
+.family {
+  position: relative;
+  border-bottom: 0.18519rem solid #f5f5f5;
+}
+
+.family .server {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 0.46296rem;
+  height: 1.46296rem;
+  line-height: 0.46296rem;
+}
+
+.family .server > div {
+  display: flex;
+}
+
+.family .server > div span {
+  display: block;
+  margin-left: 0.50926rem;
+  color: #262626;
+  font-size: 0.37037rem;
+}
+
+.family .server > div .icon-fuwuzhongxin {
+  font-size: 0.62963rem;
+  color: #f96d5e;
+}
+
+.family .server > div .icon-y67 {
+  color: #fe8c41;
+}
+
+.family .server .icon-iconfontxiangxia1copy19 {
+  font-size: 0.42593rem;
+  color: #757575;
+}
+
+.family .line {
+  position: absolute;
+  top: 1.46296rem;
+  left: 15%;
+  width: 85%;
+  height: 0.05556rem;
+  background-color: #f5f5f5;
+}
+
+.set {
+  border-bottom: 1.85185rem solid #f5f5f5;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  height: 1.22222rem;
+  padding: 0 0.98148rem;
+  align-items: center;
+}
+
+footer img {
+  height: 0.87037rem;
+}

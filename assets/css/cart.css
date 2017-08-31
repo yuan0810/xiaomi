@@ -1,0 +1,204 @@
+@charset "UTF-8";
+a {
+  text-decoration: none;
+}
+
+.container {
+  position: relative;
+  height: 100%;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 1.2037rem;
+  background-color: #f2f2f2;
+  padding-left: 0.44444rem;
+  padding-right: 0.41667rem;
+  font-size: 0.38889rem;
+  color: #666;
+  text-align: center;
+  border-bottom: 1px solid #efefef;
+}
+
+header img {
+  height: 0.50926rem;
+}
+
+header .iconfont {
+  font-size: 0.55556rem;
+}
+
+main {
+  margin-top: 0.53704rem;
+  /* 购物列表 */
+}
+
+main > a:nth-child(1) {
+  display: block;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 0.46296rem;
+  padding-right: 0.39815rem;
+  margin-bottom: 0.55556rem;
+}
+
+main > a:nth-child(1) h3 {
+  font-size: 0.40741rem;
+  color: #212121;
+}
+
+main > a:nth-child(1) span {
+  font-size: 0.31481rem;
+  color: #757575;
+}
+
+main > a:nth-child(1) span::after {
+  content: ">";
+  margin-left: 0.18519rem;
+}
+
+main > div {
+  padding: 0 0.31481rem 0 0.42593rem;
+  border-bottom: 1px solid #f6f6f6;
+  display: flex;
+  align-items: center;
+  height: 3.14815rem;
+}
+
+main > div .checkbox {
+  height: 0.55556rem;
+  margin-right: 0.74074rem;
+}
+
+main > div .img {
+  height: 2.07407rem;
+}
+
+main > div .jisuan {
+  margin-left: 0.74074rem;
+}
+
+main > div .jisuan p {
+  font-size: 0.38889rem;
+  margin-bottom: 0.31481rem;
+  color: #6d6d6d;
+  line-height: 0.46296rem;
+}
+
+main > div .jisuan > span {
+  display: block;
+  font-size: 0.25926rem;
+  color: #999;
+  margin-bottom: 0.27778rem;
+}
+
+main > div .jisuan > div {
+  display: flex;
+  width: 50%;
+  border: 1px solid #eee;
+  height: 0.88889rem;
+  font-size: 0.46296rem;
+}
+
+main > div .jisuan > div > div {
+  flex: 1;
+  text-align: center;
+  line-height: 0.88889rem;
+}
+
+main > div .jisuan > div input {
+  flex: 1;
+  outline: none;
+  border: 0;
+  text-align: center;
+  color: #51555a;
+}
+
+main > div .jisuan > div .jian {
+  color: #ddd;
+  background-color: #fafafa;
+}
+
+main > div .jisuan > div .jia {
+  color: #999;
+  background-color: #f4f4f4;
+}
+
+main > div .iconfont {
+  font-size: 0.51852rem;
+  color: #999;
+}
+
+main > p {
+  padding: 0 0.31481rem 0 0.42593rem;
+  font-size: 0.27778rem;
+  color: #999;
+  line-height: 0.99074rem;
+}
+
+main .shadow {
+  height: 0.31481rem;
+  background-color: #f5f5f5;
+}
+
+.bot {
+  height: 2.07407rem;
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 1.46296rem;
+  display: flex;
+  border-top: 2px solid #f6f6f6;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+footer div:nth-child(1) {
+  width: 33.33333%;
+  height: 1.46296rem;
+  text-align: center;
+  line-height: 0.73148rem;
+  background-color: #fff;
+}
+
+footer div:nth-child(1) span:nth-child(1) {
+  display: block;
+  font-size: 0.33333rem;
+  color: #999;
+}
+
+footer div:nth-child(1) span:nth-child(2) {
+  display: block;
+  font-size: 0.40741rem;
+  color: #ff5722;
+}
+
+footer div:nth-child(1) span:nth-child(2)::after {
+  content: "元";
+  color: #999;
+  margin-left: 0.16667rem;
+  font-size: 0.2963rem;
+}
+
+footer div:nth-child(2) {
+  width: 33.33333%;
+  text-align: center;
+  font-size: 0.37037rem;
+  color: #333;
+  background-color: #f4f4f4;
+  line-height: 1.46296rem;
+}
+
+footer div:nth-child(3) {
+  width: 33.33333%;
+  text-align: center;
+  font-size: 0.37037rem;
+  color: #fff;
+  background-color: #ff5722;
+  line-height: 1.46296rem;
+}
